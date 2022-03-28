@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-custom{
+    background-color: #128C7E;
+    width: 100%;
+}
+#logoSm{
+    width: 45px;
+    display: none;
+}
+
+.phone{
+    width: 300px;
+}
+.dwn-btn{
+    display: none;
+}
+.home-icons li{
+    display: flex;
+    list-style: none;
+}
+.home-icons li a{
+ text-decoration: none;
+ color: #1ebea5;
+
+}
+.home-icons{
+    padding-left: 134px;
+}
+
+@media(max-width:1090px)
+{
+    #logoSm{
+        display: block;
+    }
+    #logo{
+        display: none;
+    }
+    .home-icons{
+        display: none;
+    }
+    
+    
+    .home-page{
+        padding-top: 50px;
+        background-color:#128C7E ;
+    }
+    .dwn-btn{
+        display: block;
+        background-color: #075e54;
+        padding: 15px 8px;
+        border-radius: 30px;
+        width: 200px;
+        margin: 0 auto;
+        margin-top: 50px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        
+    }
+    
+}
